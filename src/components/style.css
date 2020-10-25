@@ -5,7 +5,7 @@
   #score {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 80vw;
     height: 50px;
   }
   
@@ -39,16 +39,15 @@
   #batu:hover {
     transform: translateY(-10px);
   }
+
   #body {
-    transition: 0.25s;
-  }
-  .body {
-    font-size: 3em;
+    font-size: 1.7em;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
+    transition: 0.25s;
   }
   
   * {
@@ -64,6 +63,6 @@
     flex-direction: column;
     transition: 0.25s;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
   }
   

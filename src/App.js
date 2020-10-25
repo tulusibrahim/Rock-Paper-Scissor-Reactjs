@@ -6,7 +6,7 @@ import './components/style.css'
 
 function App() {
   return (
-    <div className="body">
+    <div id="body">
       <div className="content">
         <Header />
         <Choose />

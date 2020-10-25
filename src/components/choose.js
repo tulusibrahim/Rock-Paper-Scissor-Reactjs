@@ -79,14 +79,14 @@ class Choose extends React.Component {
     render() {
         return (
             <div>
-                <span><i class="far fa-hand-paper" style={{ fontSize: '80px', margin: '20px', cursor: 'pointer' }} onClick={kertas}
+                <span><i className="far fa-hand-paper" style={{ fontSize: '80px', margin: '20px', cursor: 'pointer' }} onClick={kertas}
                     id="kertas"></i></span>
-                <span><i class="far fa-hand-rock" style={{ fontSize: '80px', margin: '20px', cursor: 'pointer' }} onClick={batu}
+                <span><i className="far fa-hand-rock" style={{ fontSize: '80px', margin: '20px', cursor: 'pointer' }} onClick={batu}
                     id="batu"></i></span>
-                <span><i class="far fa-hand-scissors" style={{ fontSize: '80px', margin: '20px', cursor: 'pointer' }} onClick={gunting}
+                <span><i className="far fa-hand-scissors" style={{ fontSize: '80px', margin: '20px', cursor: 'pointer' }} onClick={gunting}
                     id="gunting"></i></span><br /><br />
-                <span><button onClick={yuk} id="button">Let's see</button><br /></span>
-            </div>
+                <span><button onClick={yuk} id="button" style={{ fontSize: 40 }}>Let's see</button><br /></span>
+            </div >
         );
     }
 }
